@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font: 1.7rem sans-serif;
+  background: #17202a;
+  color: aliceblue;
+}
+main {
+  width: 90%;
+  margin: auto;
+}
+.container {
+  margin: 0 auto 2rem auto;
+  display: flex;
+  overflow-x: scroll;
+  align-items: center;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+  margin: 1rem 0;
+}
+h1 {
+  font-family: "Cinzel", serif;
+}
+h2 {
+  font-family: serif;
+}
+p {
+  background: #f0f3f4;
+  color: #17202a;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin: 0 2rem;
+  min-width: 27rem;
+  scroll-snap-align: center;
+}
+img {
+  width: 100%;
+  max-width: 36rem;
+  /* border-radius: 50%; */
+  max-height: 23rem;
+  scroll-snap-align: center;
+}
+.salones {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-width: 25rem;
+  scroll-snap-align: center;
+}
+.salones img {
+  max-width: 50%;
+  border-radius: 0;
+}
+.other {
+  padding: 0 2rem;
+}
+.botones {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+button {
+  min-width: 10rem;
+  min-height: 4rem;
+  margin: 0 3rem;
+  background: #910303;
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.5s;
+}
+button:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+}
+.video {
+  width: 100%;
+  margin: 2rem auto;
+}
+footer h4 {
+  text-align: center;
+  padding: 2rem;
+}
